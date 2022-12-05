@@ -13,12 +13,36 @@ body {
 }
 
 .nav-bar{
-    width: 945px;
-    margin: 32.99px auto;
-    gap: 154.64px;
+    display: flex;
+    width: 1200px;
+    margin: 44px auto;
+    /* gap: 154.64px; */
 }
 
-.menu-list {
+.nav-image{
+    width: 32.18px;
+    margin-right: 11.3px;
+}
+
+.logo{
+    display: flex;
+    width: 100.48px;
+    margin-right: 102px;
+    text-decoration: none;
+    color:#000000;
+    cursor: pointer;
+}
+
+.nav-search-icon{
+
+}
+
+.nav-search-input{
+    border: solid 1px #D9D9D9;
+}
+
+
+/* .menu-list {
     display: flex;
     gap: 155.65px;
     cursor: pointer;
@@ -47,4 +71,4 @@ body {
 .hero-heading{
     width: 123.51px;
     text-transform: uppercase;
-}
+} */
