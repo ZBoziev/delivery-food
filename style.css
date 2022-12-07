@@ -76,6 +76,7 @@ body {
 .main-section{
     width: auto;
     margin: 21.99px auto;
+    padding-top: 18.3px;
     background-color: #F5F5F5;
 }
 
@@ -110,4 +111,98 @@ body {
     margin-left: -95px;
 }
 
+.restaurant-list{
+    position: relative;
+    margin-top: 56.6px;
+}
 
+.restaurant-heading{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42.19px;
+    margin: 0;
+}
+
+.rest-search{
+    width: 306px;
+    height: 34px;
+    margin: 5px 0 0 704px;
+    border: solid 1px #D9D9D9;
+}
+
+.restaurant-search-input{
+    width: 262px;
+    height: 24px;
+    margin: 5px 12px 5px 32px;
+    border: none;
+}
+
+.search-png{
+    position: absolute;
+    right: 280px;
+    top: 15px;
+}
+
+.restaurant-card-list{
+    position: relative;
+    margin-top: 44.01px;
+}
+
+.restaurant-card{
+    width: 384px;
+    background-color: #ffffff;
+}
+
+.heading-card{
+    width: 259.36px;
+    margin: 20.63px 0 0 24px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.restaurant-card-info{
+    display: flex;
+    width: 227.19px;
+    margin: 10px 0 0 24px;
+}
+
+.star-image{
+    position: absolute;
+    bottom: 10px;
+}
+
+.restaurant-score{
+    margin: 0 0 0 22px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFC107;
+}
+
+.restaurant-food-price{
+    margin: 0 0 0 26px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color:  #8C8C8C;
+}
+
+.restaurant-elipse-image{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    left: 180px;
+    bottom: 15px;
+}
+
+.restaurant-catagory{
+    margin: 0 0 0 25px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color:  #8C8C8C;
+}
