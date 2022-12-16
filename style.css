@@ -70,6 +70,7 @@ body {
     margin-left: 32px;
     border: none;
     color: #BFBFBF;
+    outline: #D9D9D9;
 }
 
 .button{
@@ -119,9 +120,9 @@ body {
 
 .main-section{
     width: auto;
-    height: 1340.22px;
     margin: 21.99px auto;
     padding-top: 18.3px;
+    padding-bottom: 112.3px;
     background-color: #F5F5F5;
 }
 
@@ -179,10 +180,11 @@ body {
 .restaurant-search-input{
     width: 262px;
     height: 24px;
-    margin: 5px 12px 5px 32px;
+    margin: 5px 0 0 32px;
     border: none;
     color: #BFBFBF;
     background-color: #F5F5F5;
+    outline: #F5F5F5;
 }
 
 .search-png{
@@ -202,7 +204,7 @@ body {
     width: 384px;
     gap: 30px 24px;
     background-color: #ffffff;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
     text-decoration: none;
 }
 
@@ -242,7 +244,7 @@ body {
 
 .everege-time-text{
     margin: 1px 8px 1px 8px;
-    font-family: SF Pro Display;
+    font-family: SF Pro Display sans-serif;
     font-size: 12px;
     font-weight: 400;
     line-height: 20px;
@@ -304,6 +306,7 @@ body {
 
 .footer-main-menu{
     display: flex;
+    margin: 0;
 }
 
 .footer-logo{
@@ -345,4 +348,80 @@ li:nth-last-child(1){
 
 .social-media-image{
     gap: 21px;
+}
+
+
+
+/*restaurant section*/
+
+.main-restaurant-section{
+    display: flex;
+    width: 432.19px;
+    margin: 0 auto 0 119.5px;
+    justify-content: space-between;
+}
+
+.restaurant-main-information{
+    position: relative;
+    display: flex;
+    margin-top: 5px;
+
+}
+
+.restaurant-name{
+    width: 118px;
+}
+
+.restaurant-main-information{
+    width: 294.19px;
+    height: 32px;
+}
+
+.restaurant-card-product-name{
+    width: 337px;
+    margin: 24.76px 0 0 24px;
+}
+
+.heading-card-main-page{
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #000000;
+}
+
+.composition-product{
+    width: 337px;
+    line-height: 21px;
+    margin: 10px 0 0 0;
+}
+
+.restaurant-button-food-price{
+    display: flex;
+    width: 211px;
+    height: 40px;
+    margin: 24.76px 0 30.21px 24px;
+}
+
+.shopping-cart{
+    display: flex;
+    width: 124px;  
+}
+
+.shopping-cart-image{
+    margin: 14.03px 0 0 4.96px;
+}
+
+.shopping-cart-text{
+    font-family: SF Pro Display sans-serif;
+    margin: 8px 0 0 16px;
+    color: #F5F5F5;
+}
+
+.card-restaurant-food-price{
+    margin: 4px 0 0 32px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #000000;
 }
